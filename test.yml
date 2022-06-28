@@ -1,0 +1,16 @@
+name: Mathias
+age: 22
+interests:
+    interest1: |
+        software 
+        development
+    interest2: >
+        health 
+        and sports
+music: {genre1: rap, genre2: electro}
+food: [crepes, chicken parm]
+dog:
+  - bichon
+  - type: havanese
+  - {likes: peanut butter}
+
