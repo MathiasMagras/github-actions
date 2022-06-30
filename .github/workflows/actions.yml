@@ -1,7 +1,7 @@
 name: Actions Workflow
 # 6:21 2.12
 on:
-  push:
+  pull_request:
     branches:
       - main 
       - 'feature/*'
