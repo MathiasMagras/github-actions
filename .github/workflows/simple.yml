@@ -8,6 +8,8 @@ jobs:
     steps: 
       - name: echo a string
         run: echo "Hello World"
+        timeout-minutes: 360
+        continue-on-error: true
       - name: multiline script
         run: |
           node -v
