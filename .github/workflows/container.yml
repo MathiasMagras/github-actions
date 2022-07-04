@@ -13,7 +13,7 @@ jobs:
         SLACK_MESSAGE: "This message comes from a github action" 
     - name: Run a script
       run: |
-        ./script.sh
+        ../../script.sh
     - name: Log node version
       run: |
         node -v
