@@ -6,6 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     container: node:13.5.0-alpine3.10
     steps:
+    - name: Send a Slack Message
+      uses: docker://technosophos/slack-notify
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_MESSAGE: "This message comes from a github action" 
     - name: Run a script
       run: |
         ./script.sh

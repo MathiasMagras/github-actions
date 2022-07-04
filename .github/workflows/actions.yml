@@ -1,5 +1,4 @@
 name: Actions Workflow
-# 6:21 2.12
 on:
   pull_request:
     branches:
